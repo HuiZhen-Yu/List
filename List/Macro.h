@@ -1,10 +1,13 @@
 #pragma once
 #ifndef _macro_h_
 #define _macro_h_
+
 #include <stdlib.h>
+#include <time.h>
 
 //顺序存储结构
 #define MAXSIZE 20
+#define MAX_SIZE 1000
 typedef int	ElemType;
 
 typedef struct
@@ -22,7 +25,12 @@ typedef struct Node
 }Node;
 typedef struct Node* LinkList;
 
-
+//线性表的静态链表存储结构
+typedef struct
+{
+	ElemType data;
+	int cur;
+}Component, StaticLinkList[MAX_SIZE];
 
 #define		OK		1
 #define		ERROR	0

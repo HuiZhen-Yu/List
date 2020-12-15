@@ -143,6 +143,11 @@
     <ClCompile Include="3_ListDelete.cpp" />
     <ClCompile Include="2_ListInsert.cpp" />
     <ClCompile Include="0_List_main.cpp" />
+    <ClCompile Include="4_CreateListHead.cpp" />
+    <ClCompile Include="5_CreateListTail.cpp" />
+    <ClCompile Include="7_StaticListCreate.cpp" />
+    <ClCompile Include="6_ClearList.cpp" />
+    <ClCompile Include="8_StaticListInsert.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Macro.h" />
